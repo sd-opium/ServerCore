@@ -1,0 +1,8 @@
+starter:
+  permission: servercore.kits.starter
+  cooldown-seconds: 86400
+  items:
+    - "WOODEN_SWORD:1"
+    - "STONE_PICKAXE:1"
+    - "BREAD:16"
+    - "TORCH:16"

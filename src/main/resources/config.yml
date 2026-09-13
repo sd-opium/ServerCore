@@ -1,0 +1,9 @@
+settings:
+  home-limit: 5
+  tpa-timeout-seconds: 30
+  teleport-delay-seconds: 3
+
+messages:
+  prefix: "&8[&bServerCore&8] "
+  no-permission: "&cDafür hast du keine Berechtigung."
+  player-only: "&cDieser Befehl kann nur von Spielern benutzt werden."

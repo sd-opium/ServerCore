@@ -1,0 +1,58 @@
+name: ServerCore
+version: 1.0.0
+main: de.sdopium.servercore.ServerCore
+api-version: '1.21'
+author: sd-opium
+description: Modular server management plugin
+
+commands:
+  spawn:
+    description: Teleportiert zum Spawn
+  setspawn:
+    description: Setzt den Spawn
+    permission: servercore.setspawn
+  home:
+    description: Teleportiert zu einem Home
+  sethome:
+    description: Setzt ein Home
+  delhome:
+    description: Löscht ein Home
+  homes:
+    description: Zeigt alle Homes
+  warp:
+    description: Teleportiert zu einem Warp
+  setwarp:
+    description: Erstellt einen Warp
+    permission: servercore.setwarp
+  delwarp:
+    description: Löscht einen Warp
+    permission: servercore.setwarp
+  warps:
+    description: Zeigt alle Warps
+  tpa:
+    description: Sendet eine Teleport-Anfrage
+  tpaccept:
+    description: Akzeptiert eine Teleport-Anfrage
+  tpdeny:
+    description: Lehnt eine Teleport-Anfrage ab
+  kit:
+    description: Holt ein Kit
+  kits:
+    description: Zeigt verfügbare Kits
+  servermenu:
+    description: Öffnet das Server-Menü
+  sc:
+    description: ServerCore Verwaltung
+    permission: servercore.admin
+
+permissions:
+  servercore.admin:
+    default: op
+  servercore.setspawn:
+    default: op
+  servercore.setwarp:
+    default: op
+  servercore.freeze:
+    default: op
+  servercore.kits.*:
+    default: true
